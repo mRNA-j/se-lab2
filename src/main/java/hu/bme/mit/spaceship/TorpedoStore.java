@@ -36,7 +36,7 @@ public class TorpedoStore {
     if(numberOfTorpedos < 1 || numberOfTorpedos > this.torpedoCount){
      throw new IllegalArgumentException("numberOfTorpedos");
     }
-
+// more expressive comments, per requested
     boolean success = false;
 
     // simulate random overheating of the launcher bay which prevents firing
